@@ -60,6 +60,6 @@ With the pretrained weights extracted, you can run the match_features_demo.py to
 ```shell
 python match_features_demo.py SP_path(or DND_path) RGB_image1 RGB_image2 event_image1 event_image2
 ```
-The results shown are as follows:
+The results shown are as follows(left DND,right SP):
 ![hp-v_200](DAY.png)
 ![hp-v_235](NIGHT.png)
