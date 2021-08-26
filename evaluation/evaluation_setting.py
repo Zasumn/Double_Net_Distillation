@@ -1,0 +1,6 @@
+INS_PATH = '/home/shuming/evaluation/ins.csv'
+TP_PATH = '/home/shuming/evaluation/evaluation.timestamps'
+RGB_PATH = '/home/shuming/evaluation/rgb/*.png'
+EVENT_PATH='/home/shuming/evaluation/event/*.png'
+DND_weights_dir = '/home/shuming/DnD8'
+SP_weights_dir = '/home/shared_data2/eventcamera/exper/saved_models/sp_v6'

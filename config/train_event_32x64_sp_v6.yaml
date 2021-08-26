@@ -1,0 +1,17 @@
+batch_size: 32
+validation_size: 0.25
+num_filters_1layer: 64
+num_filters_2layer: 128
+data_format: 'channels_first'
+grid_size: 8
+detection_threshold: 0.4
+descriptor_size: 256
+learning_rate: 0.001
+lambda_d: 250
+positive_margin: 1
+negative_margin: 0.2
+lambda_loss: 300 #Adjust this parameter and train multiple times
+nms: 4
+top_k: 0
+training: True
+box_nms: 1  # Set to 1 for box_nms and 0 for spatial_nms
