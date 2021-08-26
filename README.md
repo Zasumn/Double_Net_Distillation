@@ -50,7 +50,7 @@ SP_weights_dir = 'your SuperPoint pretrained model path'
 DND_weights_dir = 'your SuperPoint pretrained model path'
 ```
 ### 4) Evaluation
-Run:
+Evaluate with cosine similarity by running:
 ```shell
 python evaluation/evaluations.py config/train_event_32x64_sp_v6.yaml
 ```
