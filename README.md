@@ -1,5 +1,5 @@
 # Double Net Distillation
-This project is the graduation project of Shuming Zhang, University of Sheffield. This is a model of knowledge distillation to obtain key points and descriptors of extracted event images.  
+This project is the graduation project of Shuming Zhang(Samuel), University of Sheffield. This is a model of knowledge distillation to obtain key points and descriptors of extracted event images.  
  ## Dataset
 The RGB image set and Ground Truth comes from [Oxford Robotcar Dataset](https://robotcar-dataset.robots.ox.ac.uk),you can find a lot useful tool from [robotcar-dataset-sdk](https://github.com/ori-mrg/robotcar-dataset-sdk) moreover two related papers ["1 Year, 1000km: The Oxford RobotCar Dataset"](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf) and ["Real-time Kinematic Ground Truth for the Oxford RobotCar Dataset"](https://robotcar-dataset.robots.ox.ac.uk/images/RCD_RTK.pdf) can also be found in this repository.  
 ## Event camera simulator
