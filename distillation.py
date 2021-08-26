@@ -73,6 +73,7 @@ if __name__ == '__main__':
     validation_size = config['validation_size']
     num_filters_1layer = config['num_filters_1layer']
     num_filters_2layer = config['num_filters_2layer']
+    iteration = config['iteration']
     # setting
     rgb_path = RGB_PATH
     event_path = EVENT_PATH
@@ -122,4 +123,4 @@ if __name__ == '__main__':
     summ = tf.summary.merge_all()
     writer = tf.summary.FileWriter(tensorboard_dir)
 
-    train(num_iteration=1000)
+    train(num_iteration=iteration)

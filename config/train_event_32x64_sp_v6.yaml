@@ -15,3 +15,4 @@ nms: 4
 top_k: 0
 training: True
 box_nms: 1  # Set to 1 for box_nms and 0 for spatial_nms
+iteration: 100000
