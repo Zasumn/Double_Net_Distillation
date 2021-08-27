@@ -1,7 +1,7 @@
 # Double Net Distillation
 This project is the graduation project of Shuming Zhang(Samuel), Department of Computer Science, University of Sheffield. This is a model of knowledge distillation to extract key points and descriptors from event images.  
  ## Dataset
-The RGB image set and Ground Truth comes from [Oxford Robotcar Dataset](https://robotcar-dataset.robots.ox.ac.uk),you can find a lot useful tool from [robotcar-dataset-sdk](https://github.com/ori-mrg/robotcar-dataset-sdk) moreover two related papers ["1 Year, 1000km: The Oxford RobotCar Dataset"](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf) and ["Real-time Kinematic Ground Truth for the Oxford RobotCar Dataset"](https://robotcar-dataset.robots.ox.ac.uk/images/RCD_RTK.pdf) can also be found in this repository.  
+The RGB image set and Ground Truth comes from [Oxford Robotcar Dataset](https://robotcar-dataset.robots.ox.ac.uk),you can find a lot useful tool from [robotcar-dataset-sdk](https://github.com/ori-mrg/robotcar-dataset-sdk). Moreover two related papers can also be found in this repository. ["1 Year, 1000km: The Oxford RobotCar Dataset"](https://robotcar-dataset.robots.ox.ac.uk/images/robotcar_ijrr.pdf) and ["Real-time Kinematic Ground Truth for the Oxford RobotCar Dataset"](https://robotcar-dataset.robots.ox.ac.uk/images/RCD_RTK.pdf)   
 ## Event camera simulator
 In this project, we generate event images by using [ESIM_torch](https://github.com/uzh-rpg/rpg_vid2e) and RGB pictures.The paper can be found [here](http://rpg.ifi.uzh.ch/docs/CVPR20_Gehrig.pdf).  
 If you use this code in an academic context, please cite the following work:
@@ -21,7 +21,7 @@ The teacher network required for knowledge distillation comes from [SuperPoint](
 ## Installation
 
 ```shell
-make install  # install the Python requirements and setup the paths
+make install  # install the Python requirements
 ```
 ## Usage
 All commands should be executed within the `Double_Net_Distillation/` subfolder. When training a model or exporting its predictions, you will often have to change the relevant configuration file in `Double_Net_Distillation/config/`.
@@ -32,7 +32,7 @@ You can set the path required for training in `setting.py`.
 RGB_PATH ='your RGB images path'
 EVENT_PATH = 'your event images path'
 WEIGHT_PATH = 'your SuperPoint pretrained model path'
-TENBOARD_PATH = 'your tensorboard save path(if you use)'
+TENBOARD_PATH = 'your tensorboard save path(if you need)'
 ```
 ### 2) Train student netowrk
 You can set detailed training parameters in `config`, including the number of iterations, batch size, etc. Then run:
